@@ -38,10 +38,7 @@ styles:
 		<p>生活 读书 新知</p>
 	</div>
 	
-	<div class="block block-license">
-		<h3>版权申明</h3>
-		<p><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="本站(博客)作品全部采用知识共享署名-非商业性使用-禁止演绎 2.5 中国大陆许可协议进行许可。转载请通知作者并注明出处。"><img alt="知识共享许可协议" src="https://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
-	</div>
+
 	
 	<div class="block block-thank">
 		<h3>Powered by</h3>
