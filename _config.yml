@@ -47,7 +47,7 @@ meta:
     author:
         name: Plzhai
         email: plzhai@amss.ac.cn
-        disqus: tech-justlog-me                     # Disqus缩略标识
+        disqus: plzhai-jjdisqus                   # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
         github: plzhai                          # GitHub账号
         gravatar: 92030a7ec2265ca9c3e4dba67e3ac21e  # Gravatar头像标识
