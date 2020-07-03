@@ -1,0 +1,95 @@
+---
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>为自由而工作</title>
+{% include head.tpl %}
+<link rel="stylesheet" type="text/css" href="/assets/css/works.css" />
+</head>
+
+<body class="page-type-timeline">
+
+<aside>
+	<h1><a href="/"><img src="{{ site.meta.gravatar }}{{ site.meta.author.gravatar }}?s=32" width="32" height="32" /></a><span data-translate="work-for-freedom">工作，是为了自由</span></h1>
+	
+	<div id="skills" class="block">
+		<h3 data-translate="programming-skills">编程技能</h3>
+		<ul>
+			<li>
+				<div style="width:90%"></div>
+				<p>Python</p>
+			</li>
+			<li>
+				<div style="width:85%"></div>
+				<p>HTML5</p>
+			</li>
+			<li>
+				<div style="width:80%"></div>
+				<p>Matlab</p>
+			</li>
+			<li>
+				<div style="width:70%"></div>
+				<p>R</p>
+			</li>
+			<li>
+				<div style="width:70%"></div>
+				<p>Java</p>
+			</li>
+			<li>
+				<div style="width:60%"></div>
+				<p>Javascript</p>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="tools" class="block">
+		<h3 data-translate="using-tools">使用工具</h3>
+		<ul>
+			<li><i class="fa fa-apple"></i><span>Mac</span></li>
+			<li><i>S</i><span>Sublime</span></li>
+			<li><i class="fa fa-git-square"></i><span>Git</span></li>
+			<li><i class="fa fa-chrome"></i><span>Chrome</span></li>
+			<li><i class="fa fa-firefox"></i><span>Firefox</span></li>
+			<li><i class="fa fa-google"></i><span>Google</span></li>
+			<li><i class="fa fa-github"></i><span>GitHub</span></li>
+			<li><i class="fa fa-bitbucket"></i><span>BitBucket</span></li>
+			<li><i class="fa fa-trello"></i><span>Trello</span></li>
+			<li><i class="fa fa-stack-overflow"></i><span>StackOverflow</span></li>
+		</ul>
+	</div>
+	
+
+</aside>
+
+<div class="main">
+  <div class="jq22-container">	
+		<div class="cntl">
+			<span class="cntl-bar cntl-center">
+				<span class="cntl-bar-fill"></span>
+			</span>
+			<div class="cntl-states">
+      {% for item in site.categories.times %}
+      <div class="cntl-state">
+          <div class="cntl-content">
+						<h4>{{item.tags}}</h4>
+						<p>{{item.description}}</p>
+					</div>
+          <div class="cntl-image"><img src="{{item.img.src}}</div>
+					<div class="cntl-icon cntl-center">{{item.date | date: "%Y-%m"}}</div>
+			</div>
+      {% endfor %}
+      </div>
+     </div>
+    </div>
+  </div>
+</div> 
+      
+      
+	
+<script type="text/javascript" src="/assets/js/elf-0.5.0.min.js"></script>
+<script type="text/javascript" src="/assets/js/site.js"></script>
+{% include baidu-stats.tpl %}
+
+</body>
+</html>
