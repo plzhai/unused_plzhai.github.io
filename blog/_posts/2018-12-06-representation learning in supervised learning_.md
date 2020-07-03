@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a good representation in Supervised learning ?
+title: 好的特征是怎样的？
 category: communicate
 tags: [Representation Learning, Deep Learning]
 ---
@@ -30,9 +30,12 @@ We have talked about information bottleneck in my another blog [How do we unders
 But how? 
 
 Recall that IB objective has the form 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{80}&space;I(X,T)&plus;\beta&space;I(T,Y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{80}&space;I(X,T)&plus;\beta&space;I(T,Y)" title="I(X,T)+\beta I(T,Y)" /></a>.
+\begin{equation}
+min_{T}MI(X;T)-\beta MI(Y;T)
+\end{equation}
+.
 We will give a variational bound to the two MI equations and minimize the bound instead.
-Let's start with *I(Z,Y)*.Writing it out in full, this becomes
+Let's start with $I(Z,Y)$.Writing it out in full, this becomes
 
 [](/img/in-post/IZY.jpg)
 let *q(y|z)* be a variational approximation to *p(y|z)* since the latter is intractable in our case.*q(y|z)* is our decoder we will take to be a neural network with its own set of parameters.
