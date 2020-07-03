@@ -73,10 +73,10 @@
       {% for item in site.categories.times %}
       <div class="cntl-state">
           <div class="cntl-content">
-						<h4>{{item.tag}}</h4>
+						<h4>{{item.title}}</h4>
 						<p>{{item.description}}</p>
 					</div>
-          <div class="cntl-image"><img src="{{item.img.src}}</div>
+          <div class="cntl-image"><img src="{{item.img}}</div>
 					<div class="cntl-icon cntl-center">{{item.date | date: "%Y-%m"}}</div>
 			</div>
       {% endfor %}
