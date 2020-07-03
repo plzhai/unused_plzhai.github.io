@@ -11,7 +11,6 @@ pageClass: page-type-post
 	{% include meta.tpl %}
 	{{ content }}
 	{% capture permaurl %}{{site.origin}}{{ page.url }}{% endcapture %}
-	<p class="permalink">永久链接：<a href="{{ permaurl }}">{{ permaurl }}</a></p>
 </article>
 
 <div id="gitmentContainer"></div>
