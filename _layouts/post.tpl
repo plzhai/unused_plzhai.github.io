@@ -13,20 +13,8 @@ pageClass: page-type-post
 	{% capture permaurl %}{{site.origin}}{{ page.url }}{% endcapture %}
 </article>
 
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'plzhai',
-    repo: 'plzhai.github.io',
-    oauth: {
-        client_id: '007213f1b841dffdb129',
-        client_secret: 'e778234eb15d539be4898370399a8a12a866ebc1',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
+<div id="disqus_thread" class="comments"></div>
+
 
 <ins class="adsbygoogle"
      style="display:block"
