@@ -13,7 +13,21 @@ pageClass: page-type-post
 	{% capture permaurl %}{{site.origin}}{{ page.url }}{% endcapture %}
 	<p class="permalink">永久链接：<a href="{{ permaurl }}">{{ permaurl }}</a></p>
 </article>
-<div id="disqus_thread" class="comments"></div>
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'plzhai',
+    repo: 'plzhai.github.io',
+    oauth: {
+        client_id: '007213f1b841dffdb129',
+        client_secret: 'e778234eb15d539be4898370399a8a12a866ebc1',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 
 <ins class="adsbygoogle"
      style="display:block"
