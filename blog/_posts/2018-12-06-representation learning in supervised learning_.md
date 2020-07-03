@@ -2,7 +2,7 @@
 layout: post
 title: What is a good representation in Supervised learning ?
 category: communicate
-tags:[Representation Learning,Deep Learning]
+tags: [Representation Learning, Deep Learning]
 ---
 然而，值得思考的是“重构”这个要求是否合理？
 
