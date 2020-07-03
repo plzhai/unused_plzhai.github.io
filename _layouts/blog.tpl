@@ -10,7 +10,7 @@ styles:
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012 <a href="https://yanjunyi.com/">yanjunyi.com</a></p>
+		<p>&copy; Since 2017 <a href="https://plzhai.github.io/">plzhai.github.io</a></p>
 	</footer>
 </div>
 
@@ -35,7 +35,7 @@ styles:
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>由于经常造各种轮子，所以自诩为前端造轮子工程师。各种形式主义，工具癖，规划控，纠结帝……以及重度拖延症患者。</p>
+		<p>生活 读书 新知</p>
 	</div>
 	
 	<div class="block block-license">
