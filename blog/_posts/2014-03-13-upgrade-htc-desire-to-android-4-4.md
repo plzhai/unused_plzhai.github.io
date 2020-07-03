@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 将HTC Desire刷到Android 4.4
+title: 大连
 category: experience
 tags: [HTC Desire, Android, Android 4.4, 刷机]
 ---
