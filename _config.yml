@@ -3,8 +3,8 @@ safe: false
 permalink: /:categories/:title
 exclude:
   - README.md
-origin: https://yanjunyi.com
-name: 严俊羿
+origin: https://plzhai.github.io
+name: 饮冰散人
 
 defaults:
   - scope:
@@ -19,37 +19,38 @@ defaults:
         layout: post
 
 blog:
-    name: 闭门造轮子
-    desc: 造轮子工程师的代码笔记
+    name: 饮冰止
+    desc: 生活 读书 新知
 
     category:
-        thinking: 闭门思考
-        experience: 问题即经验
-        criticism: 非专业吐槽
-        communication: 交流分享
+        recent: 近日工作
+        communicate: 交流分享
+        essay: 鹦鹉杂谈
+        life: 闲游野记
+        
     categories:
-      - name:  thinking
-        title: 闭门思考
+      - name:  recent
+        title: 近日工作
 
-      - name:  experience
-        title: 问题即经验
-
-      - name:  criticism
-        title: 非专业吐槽
-
-      - name: communication
+      - name:  communicate
         title: 交流分享
+
+      - name:  essay
+        title: 鹦鹉杂谈
+
+      - name: life
+        title: 闲游野记
 
     scrollingLoadCount: 0
 
 meta:
     author:
-        name: Junyi
-        email: mytharcher@gmail.com
+        name: Plzhai
+        email: plzhai@amss.ac.cn
         disqus: tech-justlog-me                     # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
-        github: mytharcher                          # GitHub账号
-        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
+        github: plzhai                          # GitHub账号
+        gravatar: 92030a7ec2265ca9c3e4dba67e3ac21e  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: https://www.google.com/jsapi               # Google API地址
