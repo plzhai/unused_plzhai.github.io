@@ -19,10 +19,10 @@ styles:
 	<nav class="block">
 		<ul>
 		{% for category in site.blog.categories %}
-		<h5><li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li></h5>
+		<h4><li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li></h4>
 		{% endfor %}
-		<h5><li class="discovery"><a href="/discovery/">日新月异</a></li></h5>
-		<h5><li class="discovery"><a href="/times/">人生五年</a></li></h5>
+		<h4><li class="discovery"><a href="/discovery/">日新月异</a></li></h4>
+		<h4><li class="discovery"><a href="/times/">人生五年</a></li></h4>
 		</ul>
 	</nav>
 	
