@@ -6,7 +6,8 @@
 <title>为自由而工作</title>
 {% include head.tpl %}
 <link rel="stylesheet" type="text/css" href="/assets/css/works.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/cntl.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/jquery.eeyellow.Timeline.css" />
 </head>
 
 <body class="page-type-timeline">
@@ -115,18 +116,19 @@
 </div> 
      
 
-
+<script src="/assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.eeyellow.Timeline.js"></script>
 <script type="text/javascript">
-		$(document).ready(function(e){
-			$('.cntl').cntl({
-				revealbefore: 300,
-				anim_class: 'cntl-animate',
-				onreveal: function(e){
-					console.log(e);
-				}
-			});
-		});
+        $(document).ready(function () {
+            $('.VivaTimeline').vivaTimeline({
+                carousel: true,
+                carouselTime: 3000
+            });
+        });
 </script>
+
+
 	
 <script type="text/javascript" src="/assets/js/elf-0.5.0.min.js"></script>
 <script type="text/javascript" src="/assets/js/site.js"></script>
