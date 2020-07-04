@@ -1,4 +1,5 @@
 ---
+title: 旧时光
 ---
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -12,57 +13,6 @@
 
 <body class="page-type-timeline">
 
-<aside>
-	<h1><a href="/"><img src="{{ site.meta.gravatar }}{{ site.meta.author.gravatar }}?s=32" width="32" height="32" /></a><span data-translate="work-for-freedom">工作，是为了自由</span></h1>
-	
-	<div id="skills" class="block">
-		<h3 data-translate="programming-skills">编程技能</h3>
-		<ul>
-			<li>
-				<div style="width:90%"></div>
-				<p>Python</p>
-			</li>
-			<li>
-				<div style="width:85%"></div>
-				<p>HTML5</p>
-			</li>
-			<li>
-				<div style="width:80%"></div>
-				<p>Matlab</p>
-			</li>
-			<li>
-				<div style="width:70%"></div>
-				<p>R</p>
-			</li>
-			<li>
-				<div style="width:70%"></div>
-				<p>Java</p>
-			</li>
-			<li>
-				<div style="width:60%"></div>
-				<p>Javascript</p>
-			</li>
-		</ul>
-	</div>
-	
-	<div id="tools" class="block">
-		<h3 data-translate="using-tools">使用工具</h3>
-		<ul>
-			<li><i class="fa fa-apple"></i><span>Mac</span></li>
-			<li><i>S</i><span>Sublime</span></li>
-			<li><i class="fa fa-git-square"></i><span>Git</span></li>
-			<li><i class="fa fa-chrome"></i><span>Chrome</span></li>
-			<li><i class="fa fa-firefox"></i><span>Firefox</span></li>
-			<li><i class="fa fa-google"></i><span>Google</span></li>
-			<li><i class="fa fa-github"></i><span>GitHub</span></li>
-			<li><i class="fa fa-bitbucket"></i><span>BitBucket</span></li>
-			<li><i class="fa fa-trello"></i><span>Trello</span></li>
-			<li><i class="fa fa-stack-overflow"></i><span>StackOverflow</span></li>
-		</ul>
-	</div>
-	
-
-</aside>
 
 <div class="main">
         <div class="row">
@@ -112,6 +62,50 @@
 <!-- City版安装代码已完成 -->	
 
 </div> 
+	
+	
+	
+<aside>
+	<h2><a href="/"><i class="fa fa-home"></i></a> / <a href="/blog/">{{ site.blog.name }}</a><a href="/blog/feed.xml" class="feed-link" title="Subscribe"><i class="fa fa-rss-square"></i></a></h2>
+	<nav class="block">
+		<ul>
+		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
+		{% endfor %}
+		<li class="discovery"><a href="/discovery/">日新月异</a></li>
+		<li class="discovery"><a href="/times/">人生五年</a></li>
+		</ul>
+	</nav>
+	
+	<form action="/search/" class="block block-search">
+		<h3>搜索</h3>
+		<p><input type="search" name="q" placeholder="输入关键词按回车搜索" /></p>
+	</form>
+	
+	<div class="block block-about">
+		<h3>关于</h3>
+		<figure>
+			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
+			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
+		</figure>
+		<p>生活 读书 新知</p>
+	</div>
+	
+
+	
+	<div class="block block-thank">
+		<h3>Powered by</h3>
+		<p>
+			<a href="https://disqus.com/" target="_blank" title="云评论服务">Disqus</a>,
+			<a href="https://elf.js.org/" target="_blank">elf+js</a>,
+			<a href="https://github.com/" target="_blank">GitHub</a>,
+			<a href="https://www.google.com/cse/" target="_blank" title="自定义站内搜索">Google Custom Search</a>,
+			<a href="https://en.gravatar.com/" target="_blank" title="统一头像标识服务">Gravatar</a>,
+			<a href="https://highlightjs.org/">HighlightJS</a>,
+			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
+			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
+		</p>
+	</div>
+</aside>
      
 
 <script src="/assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
