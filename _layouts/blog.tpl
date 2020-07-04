@@ -18,9 +18,11 @@ styles:
 	<h2><a href="/"><i class="fa fa-home"></i></a> / <a href="/blog/">{{ site.blog.name }}</a><a href="/blog/feed.xml" class="feed-link" title="Subscribe"><i class="fa fa-rss-square"></i></a></h2>
 	<nav class="block">
 		<ul>
-		{% for category in site.blog.categories %}<li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li>
+		{% for category in site.blog.categories %}
+		<h5><li class="{{ category.name }}"><a href="/blog/category/{{ category.name }}/">{{ category.title }}</a></li></h5>
 		{% endfor %}
-		<li class="discovery"><a href="/discovery/">日新月异</a></li>
+		<h5><li class="discovery"><a href="/discovery/">日新月异</a></li></h5>
+		<h5><li class="discovery"><a href="/times/">人生五年</a></li></h5>
 		</ul>
 	</nav>
 	
