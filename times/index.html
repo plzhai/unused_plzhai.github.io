@@ -21,9 +21,9 @@ title: 旧时光
             <div class="col-md-12">
                 <div class="VivaTimeline">
 				<dl>
-				
+	<dt>最近</dt>
       {% for item in site.categories.times %}
-	  <dt>{{item.date | date: "%Y-%m"}}</dt>
+	  <dt>{{item.date | date: "%b,%Y"}}</dt>
       <dd class="pos-{{item.pos}} clearfix">
                         <div class="events">
                                 <div class="events-header">{{item.title}}</div>
