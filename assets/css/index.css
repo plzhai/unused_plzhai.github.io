@@ -67,8 +67,8 @@ a:hover{color: #fff; text-decoration: underline;}
 #link-blog:hover{background-color: #d81;}
 #link-github:hover{background-color: #333;}
 #link-mail:hover{background-color: #595;}
-#link-mail span:after{content: "mytharcher@gmail.com"; font-size: 1rem;}
-#link-twitter:hover{background: #27a0ef;}
+#link-mail span:after{content: "plzhai"; font-size: 1rem;}
+#link-times:hover{background: #27a0ef;}
 #link-zhihu:hover{background-color: #0084ff;}
 li#link-wechat span{top: 0;}
 li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
@@ -79,10 +79,10 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card ul{width: 725px; height: 200px;}
 	#card header{position: absolute; top: -105px;}
 	#link-blog{left: 210px; top: 0;}
-	#link-mail{left: 420px; top: 0;}
+	#link-times{left: 420px; top: 0;}
 	#link-wechat{left: 630px; top: 0;}
 	#link-github{left: 420px; top: 105px;}
-	#link-twitter{left: 525px; top: 105px;}
+	#link-mail{left: 525px; top: 105px;}
 	#link-zhihu{left: 630px; top: 105px;}
 	#card ul{
 		-webkit-transition: width ease .5s;
@@ -109,10 +109,10 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card{width: 515px;}
 	#card ul{width: 515px; height: 305px;}
 	#link-blog{left: 210px; top: 0;}
-	li#link-mail.half{left: 0; top: 210px; width: 305px;}
+	li#link-times.half{left: 0; top: 210px; width: 305px;}
 	#link-wechat{left: 315px; top: 210px;}
 	#link-github{left: 420px; top: 0;}
-	#link-twitter{left: 420px; top: 105px;}
+	#link-mail{left: 420px; top: 105px;}
 	#link-zhihu{left: 420px; top: 210px;}
 }
 
@@ -120,10 +120,10 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card{width: 410px;}
 	#card ul{width: 410px; height: 410px;}
 	#link-blog{left: 210px; top: 0;}
-	li#link-mail.half{left: 0; top: 210px; width: 410px;}
+	li#link-times.half{left: 0; top: 210px; width: 410px;}
 	#link-wechat{left: 210px; top: 315px;}
 	#link-github{left: 0; top: 315px;}
-	#link-twitter{left: 105px; top: 315px;}
+	#link-mail{left: 105px; top: 315px;}
 	#link-zhihu{left: 315px; top: 315px;}
 }
 @media (max-width: 480px){
@@ -148,10 +148,10 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 		top: 0;
 	}
 	#link-blog{left: 51%; top: 0;}
-	li#link-mail.half{left: 0; top: 51%;}
+	li#link-times.half{left: 0; top: 51%;}
 	#link-wechat{left: 51%; top: 76.5%;}
 	#link-github{left: 0%; top: 76.5%;}
-	#link-twitter{left: 25.5%; top: 76.5%;}
+	#link-mail{left: 25.5%; top: 76.5%;}
 	#link-zhihu{left: 76.5%; top: 76.5%;}
 }
 @media (max-width: 320px) {
