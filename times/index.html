@@ -64,31 +64,37 @@
 </aside>
 
 <div class="main">
-  <div class="jq22-container">	
-		<div class="cntl">
-			<span class="cntl-bar cntl-center">
-				<span class="cntl-bar-fill"></span>
-			</span>
-			<div class="cntl-states">
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="VivaTimeline">
+				<dl>
+				
       {% for item in site.categories.times %}
-      <li class="item">
-      <div class="meta">
-	<i class="fa fa-{{item.icon}}"></i>
-	<p class="date">{{item.date | date: "%Y-%m"}}</p>
-	<i class="arrow-left"></i>
-      </div>
-      <div class="cntl-state">
-          <div class="cntl-content">
-						<h4>{{item.title}}</h4>
-						<p>{{item.description}}</p>
-					</div>
-          <div class="cntl-image"><img src="{{item.img}}"></div>
-      </div>
-      </li>
+	  <dt>{{item.date | date: "%Y-%m"}}</dt>
+      <dd class="pos-left clearfix">
+                        <div class="events">
+                                <div class="events-header">{{item.title}}</div>
+                                <div class="events-body">
+                                    <div class="row">
+                                        <div class="col-md-12 pull-left">
+                                            <img class="events-object img-responsive img-rounded" src="{{item.img}}" />
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="events-footer events-desc">
+                                    <h5>{{item.description}}</h5>
+                                </div>
+                        </div>
+       </dd>
       {% endfor %}
+	  </dl>
       </div>
      </div>
     </div>
+  </div>
 
 <!-- 来必力City版安装代码 -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC81MDg4My8yNzM2NQ==">
@@ -109,8 +115,7 @@
 </div> 
      
 
-<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.cntl.js"></script>
+
 <script type="text/javascript">
 		$(document).ready(function(e){
 			$('.cntl').cntl({
