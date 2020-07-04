@@ -72,7 +72,7 @@
 				
       {% for item in site.categories.times %}
 	  <dt>{{item.date | date: "%Y-%m"}}</dt>
-      <dd class="pos-left clearfix">
+      <dd class="pos-{{item.pos}} clearfix">
                         <div class="events">
                                 <div class="events-header">{{item.title}}</div>
                                 <div class="events-body">
