@@ -8,11 +8,7 @@
    - 旧时光：也是以TimeLine的形式展示的，但是做了一个更加柔和的格式，加了一首自己弹得背景音乐。
    - 评论：本来是以Disqus为第三方评论平台的，但是被墙之后选择了页面也很简洁的Livere。支持微信和豆瓣登录是极棒的！
    - 数学公式支持：[MathJax](https://www.mathjax.org/)
+   - 内部搜索
 
-## How To Fork?
-
-关于该模板的制作过程，我已在我的博客中说明。这里要再次致谢原作者提供了大部分功能！
-
-如果你想Fork， 请参考：[用GitHub Pages和Jekyll极大化个人博客功能？](https://plzhai.github.io/blog/posts/githubpages)
 
 © Since 2017 plzhai. All rights reserverd.
