@@ -1,6 +1,8 @@
 <head>
 <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
 <meta charset="utf-8" />
+<meta name="description" content="{{ site.description }}">
+<meta name="keywords"  content="{{ site.keyword }}">
 <meta name="author" content="{{ site.meta.author.name }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" href="/favicon.png" type="image/x-icon" />
