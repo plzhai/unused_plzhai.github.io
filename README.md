@@ -1,4 +1,4 @@
-##### Introduction 
+## Introduction 
 
 1. 该网站源程序是以[GitHub Pages + Jekyll](https://jekyllrb.com/docs/github-pages/)为基础建立的。
 2. 本站作者是以[SimpleGray](https://github.com/mytharcher/SimpleGray)的源程序基础上改编而来，感谢原作者！
@@ -9,7 +9,7 @@
    - 评论：本来是以Disqus为第三方评论平台的，但是被墙之后选择了页面也很简洁的Livere。支持微信和豆瓣登录是极棒的！
    - 数学公式支持：[MathJax](https://www.mathjax.org/)
 
-##### How To Fork?
+## How To Fork?
 
 关于该模板的制作过程，我已在我的博客中说明。这里要再次致谢原作者提供了大部分功能！
 
