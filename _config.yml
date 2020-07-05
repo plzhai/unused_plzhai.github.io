@@ -4,7 +4,8 @@ permalink: /:categories/:title
 exclude:
   - README.md
 origin: https://plzhai.github.io
-name: 饮冰散人|翟鹏龙的个人空间
+name: 饮冰散人
+SEOtitle: 翟鹏龙的个人空间
 
 defaults:
   - scope:
