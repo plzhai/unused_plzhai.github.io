@@ -21,4 +21,5 @@
     }
   });
 </script>
+{% include baidu-stats.tpl %}
 </head>
