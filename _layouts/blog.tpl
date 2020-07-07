@@ -53,6 +53,9 @@ styles:
 			<a href="https://highlightjs.org/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
+			<a href="livere.com" target="_blank">Livere</a>
+			<a href="https://v3.bootcss.com/" target="_blank">Bootstrap</a>
+			
 		</p>
 	</div>
 </aside>
