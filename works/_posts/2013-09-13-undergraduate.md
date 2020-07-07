@@ -1,7 +1,7 @@
 ---
-title: 四川大学-数学学院
+title: 四川大学
 category: works
-icon: users
+icon: graduation-cab
 tags: [本科, 计算数学]
 figures:
   - src: "https://lh4.googleusercontent.com/proxy/t_nqoQ3o2Ftr3NK2ifzntlpS4o3wGbwy61VKAKA3fKNrFbRVLY7csKo1Y996JmUWTbAsNDX8vqfIrOt3"
