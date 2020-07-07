@@ -9,31 +9,31 @@
 <url>
  <loc>https://plzhai.github.io/works/</loc>
  <priority>0.5</priority>
- <lastmod>2020-7-5</lastmod>
- <changefreq>daily</changefreq>
+ <lastmod>2020-7-7</lastmod>
+ <changefreq>always</changefreq>
 </url>
 <url>
  <loc>https://plzhai.github.io/blog/</loc>
  <priority>0.5</priority>
- <lastmod>2020-7-5</lastmod>
- <changefreq>daily</changefreq>
+ <lastmod>2020-7-7</lastmod>
+ <changefreq>always</changefreq>
 </url>
 <url>
  <loc>https://plzhai.github.io/times/</loc>
  <priority>0.5</priority>
- <lastmod>2020-7-5</lastmod>
- <changefreq>daily</changefreq>
+ <lastmod>2020-7-7</lastmod>
+ <changefreq>always</changefreq>
 </url>
 <url>
  <loc>https://github.com/plzhai</loc>
  <priority>0.5</priority>
- <lastmod>2020-7-5</lastmod>
- <changefreq>daily</changefreq>
+ <lastmod>2020-7-7</lastmod>
+ <changefreq>always</changefreq>
 </url>
 <url>
  <loc>https://www.zhihu.com/people/mytharcher</loc>
  <priority>0.5</priority>
- <lastmod>2020-7-5</lastmod>
- <changefreq>daily</changefreq>
+ <lastmod>2020-7-7</lastmod>
+ <changefreq>always</changefreq>
 </url>
 </urlset>
