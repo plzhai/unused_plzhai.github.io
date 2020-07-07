@@ -1,2 +1,3 @@
 User-agent: *
 disallow: /demo
+Sitemap: https://plzhai.github.io/sitemap.xml
