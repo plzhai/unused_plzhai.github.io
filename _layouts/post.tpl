@@ -4,7 +4,9 @@ pageClass: page-type-post
 ---
 
 <div class="trace">/ <a href="/blog/">{{ site.blog.name }}</a> / <a href="{{ page.url }}">{{ page.title }}</a></div>
-
+{% if page.bgm %}
+<audio autoplay="autoplay" controls="controls"loop="loop" hidden="true" preload="auto" src="/assets/bg/{{ page.bgm }}"></audio>
+{% endif %}
 <article>
 	<h1>{{ page.title }}</h1>
 	{% assign post = page %}
