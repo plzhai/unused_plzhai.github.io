@@ -70,9 +70,9 @@ a:hover{color: #fff; text-decoration: underline;}
 #link-mail span:after{content: "plzhai"; font-size: 1rem;}
 #link-times:hover{background: #27a0ef;}
 #link-zhihu:hover{background-color: #0084ff;}
-#link-wechat:hover{background-color: #595;}
+#link-project:hover{background-color: #595;}
 /*
-li#link-wechat span{top: 0;}
+li#link-project span{top: 0;}
 */
 li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 #card ul:after{content: ""; clear: both; display: block;}
@@ -83,7 +83,7 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card header{position: absolute; top: -105px;}
 	#link-blog{left: 210px; top: 0;}
 	#link-times{left: 420px; top: 0;}
-	#link-wechat{left: 630px; top: 0;}
+	#link-project{left: 630px; top: 0;}
 	#link-github{left: 420px; top: 105px;}
 	#link-mail{left: 525px; top: 105px;}
 	#link-zhihu{left: 630px; top: 105px;}
@@ -113,7 +113,7 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card ul{width: 515px; height: 305px;}
 	#link-blog{left: 210px; top: 0;}
 	li#link-times.half{left: 0; top: 210px; width: 305px;}
-	#link-wechat{left: 315px; top: 210px;}
+	#link-project{left: 315px; top: 210px;}
 	#link-github{left: 420px; top: 0;}
 	#link-mail{left: 420px; top: 105px;}
 	#link-zhihu{left: 420px; top: 210px;}
@@ -124,7 +124,7 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card ul{width: 410px; height: 410px;}
 	#link-blog{left: 210px; top: 0;}
 	li#link-times.half{left: 0; top: 210px; width: 410px;}
-	#link-wechat{left: 210px; top: 315px;}
+	#link-project{left: 210px; top: 315px;}
 	#link-github{left: 0; top: 315px;}
 	#link-mail{left: 105px; top: 315px;}
 	#link-zhihu{left: 315px; top: 315px;}
@@ -152,7 +152,7 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	}
 	#link-blog{left: 51%; top: 0;}
 	li#link-times.half{left: 0; top: 51%;}
-	#link-wechat{left: 51%; top: 76.5%;}
+	#link-project{left: 51%; top: 76.5%;}
 	#link-github{left: 0%; top: 76.5%;}
 	#link-mail{left: 25.5%; top: 76.5%;}
 	#link-zhihu{left: 76.5%; top: 76.5%;}
@@ -167,7 +167,7 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	#card{width: 305px; height: 620px;}
 	#link-blog{left: 0; top: 210px;}
 	li#link-mail.half{left: 0; top: 420px; width: 305px;}
-	#link-wechat{left: 210px; top: 210px;}
+	#link-project{left: 210px; top: 210px;}
 	#link-github{left: 210px; top: 0;}
 	#link-twitter{left: 210px; top: 105px;}
 	#link-zhihu{left: 210px; top: 315px;}
@@ -191,7 +191,7 @@ li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 	}
 	#link-blog{left: 0; top: 39.2857%;}
 	li#link-mail.half{left: 0; top: 78.5714%;}
-	#link-wechat{left: 39.2857%; top: 39.2857%;}
+	#link-project{left: 39.2857%; top: 39.2857%;}
 	#link-github{left: 39.2857%; top: 0;}
 	#link-twitter{left: 39.2857%; top: 20.2381%;}
 	#link-zhihu{left: 39.2857%; top: 60.7123%;}
