@@ -70,7 +70,10 @@ a:hover{color: #fff; text-decoration: underline;}
 #link-mail span:after{content: "plzhai"; font-size: 1rem;}
 #link-times:hover{background: #27a0ef;}
 #link-zhihu:hover{background-color: #0084ff;}
+#link-wechat:hover{background-color: #595;}
+/*
 li#link-wechat span{top: 0;}
+*/
 li#link-zhihu:hover i{opacity: 1; font-size: inherit; color: #888;}
 #card ul:after{content: ""; clear: both; display: block;}
 
