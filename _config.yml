@@ -4,7 +4,7 @@ permalink: /:categories/:title
 exclude:
   - README.md
 origin: https://plzhai.github.io
-name: 饮冰散人
+name: Dead Man Walking
 SEOtitle: 翟鹏龙的个人博客
 description: "关于科学、探索与生活 | 这里是 @翟鹏龙 的个人博客，与你一起发现更大的世界。"
 keyword: "翟鹏龙, 张瑞珈, 数据科学, 游记, 机器学习, 博客, 个人网站, GitHub Pages"
